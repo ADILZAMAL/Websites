@@ -62,10 +62,10 @@ header .current{
 #showcase{
     min-height:400px;
     background:url("../image/showcase.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position-x: 100%; 
-    background-position-y: 0px;
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   background-size:100% auto;
     text-align: center;
     color:white;
 

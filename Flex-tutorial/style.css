@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body{
+    background-color: #252529;
+    color: #fff;
+    margin: 0;
+    font-family:'PT Sans',sans-serif;
+    line-height: 1.6;
+
+}
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    float:left;
+}
+nav a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+  color: #fff;
+  padding: 10px 0 0 0;
+
+}
+#showcase{
+    margin:0;
+    padding: 0;
+    background: url("images/showcase.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    overflow-y: hidden;
+}
+.section-main-container{
+    text-align: center;
+    margin-top: 25vh;
+    padding: 0 3rem;
+}
+#showcase h1{
+    font-size: 4rem;
+}
+#showcase h2{
+    font-size: 2rem;
+}
+#showcase .lead{
+    font-size: 1.3rem;
+}
+#music .container,.entertainment .container{
+    text-align: center;
+    padding: 0 3rem;
+  
+}
+#music{
+    padding: 10px 0 5rem 0;
+}
+#btn1{
+    background-color: red;
+    height: 5vh;
+    border: none;
+    font-weight: 500;
+    display: inline-block;
+
+}
+#music #musicmarkup{
+width: 100%;
+}
+#music h2{
+    font-size: 3rem;
+    
+}
+#music h3{
+    font-size: 1.5rem;
+}
+#music p{
+    font-size: 1rem;
+}
+.video{
+    background-color: #fff;
+    color:#000;
+    padding: 10px 0 5rem 0;
+}
+.video .container{
+    text-align: center;
+    padding:0 3rem;
+}
+
+.video h1{
+    font-size: 3rem;
+}
+.video h3{
+font-size: 1.5rem;
+}
+.video p{
+    font-size: 1rem;
+}
+.btn2{
+    height: 5vh;
+    background-color:darkblue;
+    color: #fff;
+    border: none;
+}
+.videoMarkup{
+    width: 90%;
+padding-left: 3rem;
+padding-right: 3rem;
+}
+.entertainment .container h3{
+    font-size: 1.5rem;
+
+}
+.entertainment .container p{
+    font-size: 1rem;
+}
+.entertainment{
+    background: url("images/entairtenment.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    padding: 10rem 0;
+}
+.gift{
+    background-color: #fff;
+    color: #000;
+    padding: 3rem 0;
+
+}
+.gift .container{
+    display: inline-block;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content: space-between
+   
+
+}
+#con{
+    width: 50%;
+
+}
+
+.image2{
+    max-width: 100%;
+  position: center;
+    
+}
+.gift .container h1{
+    font-size: 3rem;
+}
+.gift .container p{
+    font-size: 1rem;
+  
+}
+
+
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.footer li{
+    list-style-type: none;;
+}
+
+
+@media(max-width:580px){
+    #showcase nav a{
+
+        width: 80px;
+    }
+    .lead{
+        display: none;
+    }
+    #showcase{
+        height: 50vh;
+    }
+    #showcase .section-main-container{
+        margin-top: 15vh;
+
+    }
+    #showcase .section-main-container h1{
+        font-size: 3rem;
+    }
+    #showcase .section-main-container h2{
+        font-size: 1.5rem;
+    }
+}

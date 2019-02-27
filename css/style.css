@@ -1,0 +1,219 @@
+
+body{
+    font-family: arial,Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/*Global*/
+.container{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+   
+    border: #a8491d 3px solid;
+}
+header nav a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+
+}
+header nav li{
+    padding: 0 20px 0 20px;
+    display: inline;
+
+}
+header ul{
+    float: right;
+}
+header #branding{
+    float: left;
+    margin: 0;
+}
+header nav{
+    margin-top:15px 
+}
+header a:hover{
+    font-weight: bold;
+    color:#cccccc;
+}
+header #highlight{
+    color: #e8491d;
+}
+header .current{
+    color:#e8491d;
+}
+/*showcase*/
+
+#showcase{
+    min-height:400px;
+    background:url("../image/showcase.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 100%; 
+    background-position-y: 0px;
+    text-align: center;
+    color:white;
+
+}
+#newsletter{
+    background-color:#35424a;
+
+}
+#newsletter h1{
+    float:left;
+    color: white;
+}
+#newsletter form{
+    float: right;
+    margin-top: 22px;
+}
+#newsletter .container form #btn1{
+    background-color: #e8491d;
+    border: 0;
+    height: 30px;
+    border: 0;
+    border-radius: 15px;
+    color: white;
+    font-style: solid;
+}
+#newsletter .container form input{
+    height:30px;
+    width: 180px;
+    border-radius: 15px;
+    border: 0;
+    margin-right:10px;
+    font-size:15px 
+
+}
+/*Boxes......*/
+#boxes .box{
+    float:left;
+    width: 30%;
+    padding-top: 20px;
+    padding-right: 03%;
+    text-align: center;
+
+}
+
+footer{
+    background-color: #e8491d;
+    text-align: center;
+    height: 15%;
+    padding: 02px 0 02px 0;
+    margin-top: 05px;
+    color: #ffffff;
+}
+#articl{
+    float: left;
+    width: 65%;
+
+
+}
+#aside1{
+    float: right;
+    margin-top: 10px;
+    width: 30%;
+    background-color: #35424a;
+    color: #ffffff;
+}
+#aside1 p{
+    margin-left: 10px
+}
+#aside1 h3{
+    text-align: center
+}
+.container .articles{
+    background-color:#e6e6e6;
+    margin: 05px 05px 05px 05px;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+
+}
+
+.am {
+float: right;
+
+width: 20%;
+margin-top: -200px;
+background-color:#35424a ;
+padding: 0px 0 20px 20px;
+color: white;
+margin-right:90px;
+
+}
+.am input{
+    background-color:#e6e6e6;
+    border: 2px solid lightslategray;
+}
+.am h3{
+    margin-left: 35px
+}
+
+/*media Query  */
+@media(max-width: 768px){
+    header #branding,#newsletter button{
+        float: none;
+        text-align: centre;
+        width: 100%;
+        text-align: center;
+        margin-top: -30px;
+
+    }
+    #newsletter form{
+        float:none;
+    }
+    
+    header ul{
+        float: none;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    #newsletter input{
+        width:500px;}
+        #newsletter .container form input{
+            width: 100%;
+        margin-bottom: 10px;
+        }
+        #boxes .container .box{
+            float: none;
+            text-align: center;
+            width: 100%;
+        }
+        #aside1{
+            float: none;
+            width: 100%;
+            text-align: center;
+        }
+        #boxes .container #articl{
+            float: none;
+            text-align: center;
+            width: 100%;
+        }
+        #boxes .am{
+            float: none;
+            width: 500%;
+            text-align: center;
+            background-color: #35424a;
+          }
+        #boxes .container .articles{
+            float: none;
+            width: 100%
+        }
+}

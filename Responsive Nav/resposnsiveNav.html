@@ -1,0 +1,82 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Lattitude and longitude</title> 
+        <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav{
+            border: 1px solid #EAEAEB;
+            text-align: right;
+            line-height: 70px;
+            height: 70px;
+        }
+        .menu a{
+            text-decoration: none;
+            margin: 0 10px;
+            color: grey;
+            height: 70px;
+            line-height: 70px;
+            font-weight: 600;
+            clear: right;
+        }
+        span{
+            color:#54D17A;
+        }
+        .menu{
+            margin: 0 30px 0 0;
+        }
+        label{
+            margin: 0 40px 0 0;
+            font-size: 26px;
+            width: 26px;
+            float:right;
+            display: none;
+            border:none;
+        }
+        #toggel{
+            display: none;
+        }
+        @media(max-width:500px){
+            label{
+                display: block;
+                cursor: pointer;
+            }
+            .menu{
+                width: 100%;
+                display: none;
+            }
+            .menu a{
+                display: block;
+                text-align: center;
+                border: 1px solid #EAEAEB;
+                margin:0;
+            }
+            #toggel:checked + .menu{
+                display: block;
+                 
+            }
+        }
+        
+        </style>
+    </head> 
+      
+    <body> 
+       <header>
+           <nav class="navDesk">
+               <label for="toggel">&#9776;</label>
+               <input type="checkbox" id="toggel">
+               <div class="menu">
+                   <a href="#"><span>Home</span></a>
+                   <a href="#">Product</a>
+                   <a href="#">About Us</a>
+                   <a href="#">Contact Us</a>
+               </div>
+           </nav>
+          
+       </header>
+      
+    </body> 
+    
+</html> 

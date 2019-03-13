@@ -186,7 +186,7 @@ padding-right: 3rem;
 }
 
 
-@media(max-width:580px){
+@media(max-width:500px){
     #showcase nav a{
 
         width: 80px;

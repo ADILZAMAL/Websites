@@ -6,5 +6,4 @@ $(".btn").on('click',function(){
     $('image').animate({
         scrollTop
     },900);
-    })
-});
+    });

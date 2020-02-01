@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+nav{
+  padding: 1rem 10rem!important;
+}
+nav .navbar-nav .nav-item{
+  padding:0 1rem;
+}
+nav .navbar-brand{
+  color: tomato!important;
+}
+
+.section-1{
+  background-image: url(./man-in-white-dress-shirt-sitting-on-black-rolling-chair-840996.jpg)!important;
+  background-size:100% 100%;
+  height: auto;
+  opacity:0.8;
+}
+.section-1 .row{
+  height:91vh;
+}
+.section-1 .row .text{
+  color: black;
+  text-shadow: 2px 2px 40px  #000;
+}
+.section-1 .row .text button{
+padding:.5rem 1rem;
+}
+.section-2 .row .col-md-3{
+  padding-top:2rem ;
+}
+.section-2 .container  .row .col-md-3 .icon{
+  display: inline-block;
+  background: tomato;
+  border-radius:30rem ;
+  padding:1.5rem ;
+}
+.section-2{
+  padding-bottom: 15vh;
+}
+
+.section-3 .row .col-md-3 .card-body{
+  padding-bottom:0px !important ;
+  padding-top: 10px;
+
+}
+
+.section-4{
+  padding-top: 10rem;
+}
+.section-4 .col-md-4 img{
+  border-radius: 200rem;
+}
+.section-4 .container:nth-child(even){
+  padding: 3rem 0;
+}
+
+
+
+
+@media only screen and (max-width:768px){
+  .section-3 .card{
+    width: 12rem !important;
+  }
+  .section-2 h2{
+    font-size: 1rem;
+  }
+ nav{
+   padding: .7rem 0.5rem !important;
+ }
+  
+}
+
+@media only screen and (max-width:320px){
+  .section-1 h1{
+    font-size: 1rem;
+  }
+  .section-3 .card{
+    width: 18rem !important;
+    margin-bottom: 1rem;
+  }
+  nav button{
+    border: none!important;
+  }
+}

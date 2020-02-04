@@ -1,0 +1,42 @@
+body {
+  overflow-x: hidden;
+  color: #505962;
+}
+
+.navbar {
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6) !important;
+
+}
+
+.navbar-brand img {
+  height: 2rem;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active,
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #1ebba3;
+}
+
+.home {
+  background-image: url('../assets/computers.png')!important;
+  background-size:100% 100%;
+
+}
+.home .container{
+  height: 100vh;
+}
+.home .container .row .home-txt{
+  text-transform: uppercase;
+}
+.home .container .row .home-txt h1{
+  font-size: 4rem;
+}
+.home .container .row .home-txt h3{
+  font-size: 2rem;
+}

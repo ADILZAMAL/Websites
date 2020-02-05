@@ -11,9 +11,9 @@
 
     <title>Hello, world!</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbarNav">
     <!------Home Section------>
-    <div class="home">
+    <div class="home" id="home">
       <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <a class="navbar-brand mr-0" href="#">
           <img src="./assets/nuno.png" class="img-fluid " alt="">
@@ -23,7 +23,7 @@
         </button>
         <div class="collapse navbar-collapse font-weight-bold " id="navbarNav">
           <ul class="navbar-nav  ml-auto ">
-            <li class="nav-item active px-md-4 ">
+            <li class="nav-item px-md-4 ">
               <a class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item px-md-2 px-md-4">
@@ -49,7 +49,7 @@
           <div class="col-12 home-txt text-center text-light">
             <h1 class="pb-2">Welcone to nuno</h1>
             <h3 class="pb-2">udemy bootstrap 4 course</h3>
-            <a class="btn btn-outline-light" src="#course">GET STARTED</a>
+            <a class="btn btn-outline-light btn-lg" src="#course">GET STARTED</a>
           </div>
         </div>
       </div>
@@ -57,32 +57,150 @@
     <!------End Home Section------>
 
     <!------Course Section------>
-    <div class="course">
-      
+    <div class="course" id="course">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center py-5">
+            <h1>Nuno Theme Advanced Bootstrap Course</h1>
+            <p>Learn Bootstrap by creating advanced Bootstrap 4 Responsive 
+              Website Template from scratch, with no steps skipped!
+            </p>
+            <button>93% OFF COUPON "NUNO93"</button>
+          </div>
+        </div>
+      </div>
     </div>
     <!------End Course Section------>
 
     <!------Feature Section------>
-    <div class="feature">
-      
+    <div class="feature bg-light" id="feature">
+      <div class="container text-center">
+        <h1>Features</h1>
+        <div class="d-flex justify-content-center">
+        <div class="underline "></div>
+      </div>
+        <div class="row">
+          <div class="col-md-4 p-3">
+            <i class="fas fa-play-circle fa-3x"></i>
+            <h1>custom animation</h1>
+            <p>Animate.css and Waypoint.js allow for smooth animations scrolling down the site.</p>
+          </div>
+          <div class="col-md-4 p-3">
+            <i class="fas fa-sliders-h fa-3x"></i>
+            <h1>content slider</h1>
+            <p>Owl.Carousel.js makes navigating content sliders seamless with it's content carousel navigation.</p>
+          </div>
+          <div class="col-md-4 p-3">
+            <i class="fab fa-wpforms fa-3x"></i>
+            <h1>contact form</h1>
+            <p>The Bootstrap HTML form will send directly to your email address using PHPMailer.php</p>
+          </div>
+        </div>
+      </div>
     </div>
     <!------End Feature Section------>
 
     <!------Resourse Section------>
-    <div class="resource">
-      
+    <div class="resource text-center position-relative text-light" id="resource">
+      <div class="img"></div>
+      <div class="fluid-container border position-absolute">
+        <h1 class="pt-5">built with care</h1>
+        <div class="d-flex justify-content-center   pb-5">
+          <div class="underline"></div>
+        </div>  
+          <div class="row align-items-center ">
+            <div class="col-md-4 py-2">
+              <h1>HTML 5</h1>
+              <i class="fas fa-code fa-3x"></i>
+              <p>Built with the latest,HTML 5.</p>
+            </div>
+            <div class="col-md-4 py-2">
+              <h1>BOOTSTRAP 4</h1>
+              <i class="fab fa-bootstrap fa-3x"></i>
+              <p>Built with latest Bootstrap 4</p>
+            </div>
+            <div class="col-md-4 py-2">
+              <h1>CSS 3</h1>
+              <i class="fab fa-css3 fa-3x"></i>
+              <p>Built with latest, CSS 3</p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!------End Resource Section------>
 
     <!------Clients Section------>
-    <div class="clients">
-      
+    <div class="clients  bg-light" id="clients">
+    <div class="container">
+      <h1 class="text-center pt-5">CLIENTS</h1>
+      <div class="d-flex justify-content-center">
+        <div class="underline"></div>
+      </div>
+      <div class="row pb-5 pt-5">
+        <div class="col-md-6 p-md-5">
+          <div class="row">
+            <div class="col-md-4">
+              <img class="img-fluid rounded-circle" src="./assets/client1.png" alt="">
+            </div>
+            <div class="col-md-8">
+              <i class="fas fa-quote-left fa-1x"></i>
+              <p> &nbsp;&nbsp;&nbsp;&nbsp;
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis 
+                architecto alias, inventore deleniti assumenda sapiente exercitationem
+                 quaerat commodi quas? Placeat, esse illum? Repellat possimus praesentium 
+                 fugiat pariatur autem facere explicabo.
+              </p>
+              <div class="d-flex">
+                <div class="underline"></div>
+              </div>  
+              <p class="font-italic">-Eric,Small Business Owner</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-md-5">
+          <div class="row">
+            <div class="col-md-4">
+              <img class="img-fluid rounded-circle" src="./assets/client2.png" alt="">
+            </div>
+            <div class="col-md-8">
+              <i class="fas fa-quote-left fa-1x"></i>
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus ducimus, 
+                numquam, blanditiis nesciunt offic quisquam, asperiores delectus optio 
+                suscipit necessitatibus impedit eaque. Maiores necessitatibus unde ipsa 
+                soluta explicabo officiis sit natus?
+              </p>
+              <div class="d-flex">
+                <div class="underline"></div>
+              </div> 
+              <p class="font-italic ">-Rachel,Professional Photographer</p> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
     </div>
     <!------End Clients Section------>
 
     <!------Contact Section------>
-    <div class="contact">
-      
+    <div class="contact text-center pt-5" id="contact">
+      <div class="container">
+          <p>Want to learn more about developing Bootstrap Themes?</p>
+          <button href="#" class="text-light font-weight-bold my-3">BOOTSTRAP COURSE</button>
+      </div>
+      <div class="row bg-dark text-light mt-5">
+        <div class="col-12">
+          <img class="py-5" src="./assets/nuno.png" alt="">
+          <p class="P-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates?</p>
+          <strong class="P-0">Contact Info</strong>
+          <p>(888)888-9999</p>
+          <p>email@nuno.com</p>
+        </div>
+      </div>
     </div>
     <!------End Contact Section------>
 

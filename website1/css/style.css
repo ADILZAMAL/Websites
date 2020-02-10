@@ -5,10 +5,9 @@ body {
 }
 
 .navbar {
-  font-size: .9rem;
-  letter-spacing: .1rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
   background: rgba(0, 0, 0, 0.6) !important;
-
 }
 
 .navbar-brand img {
@@ -25,124 +24,116 @@ body {
 }
 
 .home {
-  background-image: url('../assets/computers.png')!important;
-  background-size:100% 100%;
-
+  background-image: url("../assets/computers.png") !important;
+  background-size: 100% 100%;
 }
-.home .container{
+.home .container {
   height: 100vh;
 }
-.home .container .row .home-txt{
+.home .container .row .home-txt {
   text-transform: uppercase;
 }
-.home .container .row .home-txt h1{
+.home .container .row .home-txt h1 {
   font-size: 4rem;
-  text-shadow: .1rem .1rem .8rem black;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
 }
-.home .container .row .home-txt h3{
+.home .container .row .home-txt h3 {
   font-size: 2rem;
-  text-shadow: .1rem .1rem .8rem black;
-
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
 }
-.home .container .row .home-txt .btn{
+.home .container .row .home-txt .btn {
   border-radius: 0;
   border-width: medium;
   font-size: 1.1rem;
-  padding: .6rem 1rem;
+  padding: 0.6rem 1rem;
 }
-
 
 /*------Course section----------*/
 
-.course .container .row .col-12  p{
-  padding:1.5rem 15rem;
-} 
- button{
+.course .container .row .col-12 p {
+  padding: 1.5rem 15rem;
+}
+button {
   border-radius: 0;
   border: none;
   background: #1ebba3 !important;
-  padding: .5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
 }
-
 
 /*-----Feature Section---------*/
 
-.feature .container .row .col-md-4 h1{
+.feature .container .row .col-md-4 h1 {
   font-size: 2rem;
 }
-.feature .container .row{
-  padding: 5rem  0;
+.feature .container .row {
+  padding: 5rem 0;
 }
-.feature .container>h1{
+.feature .container > h1 {
   padding: 5rem 0 0 0;
 }
-.underline{
+.underline {
   background: #1ebba3;
   width: 70px;
   height: 3px;
 }
-.feature .container .row .col-md-4 p{
+.feature .container .row .col-md-4 p {
   padding: 0 4rem;
 }
-.fa-3x, .fa-1x{
+.fa-3x,
+.fa-1x {
   color: #1ebba3 !important;
 }
-.resource .fluid-container>h1{
+.resource .fluid-container > h1 {
   text-transform: uppercase;
 }
-.resource .container .row h1{
+.resource .container .row h1 {
   font-size: 2rem;
 }
-.resource .img{
-  background-image: url('../assets/apple.png');
+.resource .img {
+  background-image: url("../assets/apple.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 90vh;
 }
-.resource .fluid-container{
+.resource .fluid-container {
   background: rgba(0, 0, 0, 0.8);
   position: absolute;
   height: 90vh;
   width: 100vw;
-  top:0;
+  top: 0;
 }
-.resource .fluid-container .row{
+.resource .fluid-container .row {
   height: 69vh;
 }
-.clients .row .underline{
+.clients .row .underline {
   width: 100%;
   height: 2px;
 }
-.home .navbar .navbar-toggler{
+.home .navbar .navbar-toggler {
   background: transparent !important;
 }
 
-
-
-
 /*-------------max width 768px-------*/
-@media only screen and (max-width:768px){
-  .course .container .row .col-12 p{
-    padding:1.5rem 2rem;
+@media only screen and (max-width: 768px) {
+  .course .container .row .col-12 p {
+    padding: 1.5rem 2rem;
   }
-  .clients .container .row .col-md-6 .row img{
-    width: 50%;   
+  .clients .container .row .col-md-6 .row img {
+    width: 50%;
   }
 }
 
-@media only screen and (max-width:425px){
-  .home .container .row .home-txt h1{
+@media only screen and (max-width: 425px) {
+  .home .container .row .home-txt h1 {
     font-size: 2rem !important;
   }
-  .home .container .row .home-txt h3{
+  .home .container .row .home-txt h3 {
     font-size: 1rem;
   }
-  .resource .d-flex{
+  .resource .d-flex {
     padding-bottom: 1rem !important;
   }
-  .resource h1{
+  .resource h1 {
     padding-top: 1rem !important;
   }
 }
-
-
